@@ -63,6 +63,7 @@ class icecrown_citadel_teleport : public GameObjectScript
                     Spell::SendCastResult(player, spell, 0, SPELL_FAILED_AFFECTING_COMBAT);
                     return true;
                 }
+				
 
                 player->CastSpell(player, spell, true);
                 return true;

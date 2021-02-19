@@ -51,6 +51,7 @@ public:
                 player->CastSpell(player, SPELL_SUMMOM_RED_DRAGON_BUDDY, true);
         }
 
+
         bool SetBossState(uint32 type, EncounterState state) override
         {
             if (!InstanceScript::SetBossState(type, state))
